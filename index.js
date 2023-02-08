@@ -108,6 +108,8 @@ const reset = document.getElementById("reset-btn")
 
 reset.addEventListener("click", (e) => {
   let resetSum = 0
+  homeScore = 0;
+  guestScore = 0;
   homeSum.textContent = resetSum;
   guestSum.textContent = resetSum;
 })
