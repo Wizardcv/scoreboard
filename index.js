@@ -61,6 +61,7 @@ What do we have ?
 let homeScore = 0;
 let guestScore = 0;
 
+
 const homeSum = document.getElementById("number");
 const guestSum = document.getElementById("number2");
 
@@ -102,3 +103,11 @@ nums.forEach((num) => {
     }
   });
 });
+
+const reset = document.getElementById("reset-btn")
+
+reset.addEventListener("click", (e) => {
+  let resetSum = 0
+  homeSum.textContent = resetSum;
+  guestSum.textContent = resetSum;
+})
