@@ -103,7 +103,7 @@ nums.forEach((num) => {
     }
   });
 });
-
+// I added new button to the html file and a function that reset the scores to zero
 const reset = document.getElementById("reset-btn")
 
 reset.addEventListener("click", (e) => {
